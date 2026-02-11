@@ -77,9 +77,13 @@ section.main-content-area { /* declaration for a section tag whose class is "mai
             nav {
                 /*.nav {*/
                 min-height: 60%;
+           .links{
+               display: flex;
+               flex-direction: column-reverse;
+               align-items: center;
+           }
             }
         }
-
         .right-side {
             width: 60%;
         }
@@ -87,7 +91,7 @@ section.main-content-area { /* declaration for a section tag whose class is "mai
 }
 
 section.footer {
-    background-color: #606060;
+    background-color: green;
     color: white;
     text-align: center;
     font-size: 15px;
