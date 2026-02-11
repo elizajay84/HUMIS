@@ -10,7 +10,7 @@ div#parent { /* Declaration or "selector" */
 
 div#parent section {
     /*height: 100px;*/
-    margin: 10px;
+    /*margin: 10px;*/
     border: 1px solid black;
 }
 
@@ -20,14 +20,13 @@ section.sub-head {
 }
 
 section.main-content-area { /* declaration for a section tag whose class is "main-content-area" */
-    min-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    nav { /* applies to all nav tags found inside (descendants of) section.main-content-area */
+    nav.secondary {
         min-height: 20px;
-        border: 1px dotted red;
+        border: 1px dotted #bec4a1;
         text-align: right;
         padding-right: 20px;
         font-size: 11px;
@@ -53,7 +52,7 @@ section.main-content-area { /* declaration for a section tag whose class is "mai
     }
 
     section.brown-box {
-        background-color: brown;
+        background-color: wheat;
         padding: 20px;
         border-radius: 10px;
         min-height: 400px;
@@ -75,15 +74,23 @@ section.main-content-area { /* declaration for a section tag whose class is "mai
             }
 
             nav {
-                /*.nav {*/
-                min-height: 60%;
-           .links{
-               display: flex;
-               flex-direction: column-reverse;
-               align-items: center;
-           }
+                a {
+                    display: block;
+
+                    &:hover {
+                        color: white;
+                        background-color: blue;
+                    }
+                }
+
+                .links {
+                    display: flex;
+                    flex-direction: column-reverse;
+                    align-items: center;
+                }
             }
         }
+
         .right-side {
             width: 60%;
         }
