@@ -27,9 +27,11 @@ section.main-content-area { /* declaration for a section tag whose class is "mai
     nav.secondary {
         min-height: 20px;
         border: 1px dotted #bec4a1;
-        text-align: right;
         padding-right: 20px;
         font-size: 11px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
 
         a { /* this targets all links in each of our navs */
             margin: 0 5px;
@@ -57,20 +59,20 @@ section.main-content-area { /* declaration for a section tag whose class is "mai
         border-radius: 10px;
         min-height: 400px;
         display: flex;
+        justify-content: space-between;
 
         > * {
-            border: 1px solid black;
             margin: 10px;
         }
 
         .left-side {
-            width: 40%;
+            width: 30%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
 
             > * {
-                border: 3px solid black;
+                border: 1px solid black;
             }
 
             nav {
@@ -91,16 +93,52 @@ section.main-content-area { /* declaration for a section tag whose class is "mai
             }
         }
 
+
         .right-side {
-            width: 60%;
+            width: 62%;
+            background-color: white;
+            padding: 10px;
+
+            img {
+                margin-bottom: 5px;
+            }
+
+            p {
+                font-size: 10px;
+            }
+
+
+            div.more {
+                /*text-align: right;*/
+                display: flex;
+                justify-content: flex-end;
+
+                a {
+                    color: red;
+                    text-decoration: none;
+                    font-size: 9px;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
         }
     }
 }
 
 section.footer {
-    background-color: green;
+    background-color: #60663E;
     color: white;
     text-align: center;
-    font-size: 15px;
-    padding: 15px;
+    font-size: 11px;
+    padding: 8px 0;
+}
+
+
+h4 {
+    color: red;
+    border-bottom: 2px dashed red;
+    font-weight: unset;
+    margin: 0 0 5px 0;
 }
