@@ -23,8 +23,6 @@ section.main-content-area {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url("files/uofu_medallion_rt.gif");
-
     nav.secondary {
         min-height: 20px;
         border: 1px dotted #bec4a1;
