@@ -1,18 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-background-color: darkgray;
+    background-color: darkgray;
 }
 
-div#parent { /* Declaration or "selector" */
-    border: 1px solid black;
+div#parent {
     width: 780px;
     margin: 0 auto;
     background-color: white;
 }
 
 div#parent section {
-    /*height: 100px;*/
-    /*margin: 10px;*/
     border: 1px solid black;
 }
 
@@ -21,11 +18,12 @@ section.sub-head {
     height: 50px;
 }
 
-section.main-content-area { /* declaration for a section tag whose class is "main-content-area" */
+section.main-content-area {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-image: url("files/uofu_medallion_rt.gif");
+
     nav.secondary {
         min-height: 20px;
         border: 1px dotted #bec4a1;
@@ -34,14 +32,15 @@ section.main-content-area { /* declaration for a section tag whose class is "mai
         display: flex;
         justify-content: flex-end;
         align-items: center;
-gap: 10px 10px;
-        a { /* this targets all links in each of our navs */
+        gap: 10px 10px;
+
+        a {
             margin: 0 5px;
             color: black;
             text-decoration: none;
             text-transform: uppercase;
 
-            &:hover { /* Pseudo-class declaration */
+            &:hover {
                 text-decoration: underline;
             }
         }
@@ -55,6 +54,7 @@ gap: 10px 10px;
         }
     }
 
+}
     section.brown-box {
         background-color: #BEC3A1;
         padding: 20px;
@@ -62,14 +62,9 @@ gap: 10px 10px;
         min-height: 400px;
         display: flex;
         justify-content: space-between;
-        /*margin-bottom: 70px;*/
-        /*margin-right: 20px;*/
-        /*margin-left: 20px;*/
+
         width: 90%;
         margin: 5px auto 70px;
-        /* Above line reads margin 0 on top,
-        "the same amount" on the left and right,
-        and then finally 70px on the bottom */
 
         .left-side {
             width: 30%;
@@ -117,7 +112,6 @@ gap: 10px 10px;
 
 
             div.more {
-                /*text-align: right;*/
                 display: flex;
                 justify-content: flex-end;
 
@@ -133,7 +127,6 @@ gap: 10px 10px;
             }
         }
     }
-}
 
 section.footer {
     background-color: #60663E;
