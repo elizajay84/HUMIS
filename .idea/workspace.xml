@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16ee74e7-970a-4f78-a0cf-a0bb972d8dc6" name="Changes" comment="first draft">
-      <change afterPath="$PROJECT_DIR$/page_11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="16ee74e7-970a-4f78-a0cf-a0bb972d8dc6" name="Changes" comment="fixed text/nav menu nesting issue.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/inner-pages/inner-pages/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/files/brownBox.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/files/histBooks01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/files/histHomepic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/files/histSchedule.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/files/historyHeader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/files/historyHome.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/files/login-cis.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/files/login-humis.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/files/u_small.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/files/uofu_medallion_rt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/files/women_w_pottery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner-pages/inner-pages/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_11.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +37,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -35,12 +45,13 @@
     &quot;assignee&quot;: &quot;elizajay84&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/elizajay84/HUMIS.git&quot;,
-    &quot;accountId&quot;: &quot;20b4c447-bb76-41e2-b57b-af06f68d7f7e&quot;
-  }
-}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/elizajay84/HUMIS.git",
+    "accountId": "20b4c447-bb76-41e2-b57b-af06f68d7f7e"
+  },
+  "editorReviewEnabled": false
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -104,7 +115,9 @@
       <workItem from="1778809434836" duration="52000" />
       <workItem from="1778989028218" duration="954000" />
       <workItem from="1778992637831" duration="1339000" />
-      <workItem from="1778998173240" duration="1719000" />
+      <workItem from="1778998173240" duration="6723000" />
+      <workItem from="1779065358443" duration="570000" />
+      <workItem from="1779065939644" duration="7153000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <option name="closed" value="true" />
@@ -114,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778458364419</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed text/nav menu nesting issue.">
+      <option name="closed" value="true" />
+      <created>1779000200318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779000200318</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed text/nav menu nesting issue.">
+      <option name="closed" value="true" />
+      <created>1779000269009</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779000269009</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +162,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="first draft" />
+    <MESSAGE value="fixed text/nav menu nesting issue." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed text/nav menu nesting issue." />
   </component>
 </project>
